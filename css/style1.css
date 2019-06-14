@@ -1,0 +1,80 @@
+.forminput {
+      font-size: 1.5rem;
+      font-family: inherit;
+      color: inherit;
+      padding: 1.5rem 2rem;
+      border-radius: 2px;
+      background-color: rgba($color-white, .5);
+      border:none;
+      border-bottom: 1.5px solid #e0e0e0;
+
+}
+
+.forminput:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba($color-black, .1);
+    border-bottom: 3px solid  #22d47b;
+  }
+
+  .forminput:focus:invalid {
+    border-bottom: 3px solid rgb(250, 176, 39);
+  } 
+
+
+  iframe {
+    width: 600px;
+    height: 500px;
+  }
+
+  @media (max-width: 1200px) {
+    iframe {
+      width: 410px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    iframe {
+      width: 350px;
+      height: 400px;
+    }
+  }
+
+  @media (max-width: 770px) {
+    iframe {
+      height: 310px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    iframe {
+      height: 360px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    iframe {
+      width: 450px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    iframe {
+      width: 395px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    iframe {
+      width: 340px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    iframe {
+      width: 290px;
+    }
+  }
+
+
+
+  
